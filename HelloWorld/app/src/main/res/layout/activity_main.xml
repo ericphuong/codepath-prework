@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1468dd"
+    android:id="@+id/parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello from Eric!"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="#407295"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Click to change text color"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_margin="20dp"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_above="@id/button"
+        android:id="@+id/changeBackgroundButton"
+        android:background="#407295"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Click to change background color" />
+
+    <TextView
+        android:layout_margin="20dp"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_above="@id/changeBackgroundButton"
+        android:id="@+id/changeTextButton"
+        android:background="#407295"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Click to change text" />
+
+
+
+</RelativeLayout>
