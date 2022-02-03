@@ -1,7 +1,7 @@
 ## HelloWorld
 
 ### App Description
-`TODO://` Add app description
+`TODO://` Codepath prework
 
 ### App Walk-though
 
